@@ -66,6 +66,10 @@ App.listen(1212, async () => {
   console.log("Running ...");
 });
 
+App.get("/ahmadahmad" , (Req , Res) => {
+    Res.json("sdsdsadsad")
+});
+
 App.use((Err, Req, Res, Nxt) => {
   Res.status(401).json({ Msg: Err.message });
 });
