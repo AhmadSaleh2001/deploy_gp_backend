@@ -3,7 +3,7 @@ var cors = require("cors");
 const cookieParser = require("cookie-parser");
 
 const App = Express();
-App.use(cors({ origin: "http://localhost:3000", credentials: true }));
+App.use(cors({ origin: "https://goodbyephishers.netlify.app/", credentials: true }));
 App.use(Express.urlencoded({ extended: true }));
 App.use(Express.json());
 App.use(cookieParser());
