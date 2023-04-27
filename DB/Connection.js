@@ -6,7 +6,7 @@ const Conn = new Sequelize("phishing_detect", "ahmadsaleh", "AhmadSaleh2001", {
 });
 
 const Connect = async () => {
-  return await Conn.sync({ force: true });
+  return await Conn.sync();
 };
 
 module.exports = {
