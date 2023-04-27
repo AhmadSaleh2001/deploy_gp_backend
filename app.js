@@ -41,17 +41,17 @@ App.listen(1212, async () => {
     await Rate.sync();
     console.log("Rate Table Created");
 
-    await Model.create({
-      name: "Linear SVM",
-    });
+//     await Model.create({
+//       name: "Linear SVM",
+//     });
 
-    await Admin.create({
-      f_name: "Ahmad",
-      m_name: "Mohammad",
-      l_name: "Saleh",
-      email: "ahmadmfsaleh@gmail.com",
-      password: "ahmad123",
-    });
+//     await Admin.create({
+//       f_name: "Ahmad",
+//       m_name: "Mohammad",
+//       l_name: "Saleh",
+//       email: "ahmadmfsaleh@gmail.com",
+//       password: "ahmad123",
+//     });
 
     // await Rate.create({
     //   url: "www.google.com",
