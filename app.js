@@ -29,17 +29,17 @@ App.listen(1212, async () => {
     await Conn.authenticate();
     console.log("DB Connected");
 
-    await Admin.sync();
-    console.log("Admin Table Created");
+//     await Admin.sync();
+//     console.log("Admin Table Created");
 
-    await Url.sync();
-    console.log("URL Table Created");
+//     await Url.sync();
+//     console.log("URL Table Created");
 
-    await Model.sync();
-    console.log("Model Table Created");
+//     await Model.sync();
+//     console.log("Model Table Created");
 
-    await Rate.sync();
-    console.log("Rate Table Created");
+//     await Rate.sync();
+//     console.log("Rate Table Created");
 
 //     await Model.create({
 //       name: "Linear SVM",
